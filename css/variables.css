@@ -3,5 +3,7 @@
 :root {
    --font-primary: 'Ubuntu', sans-serif;
 
-   --color-text: #333333
+   --white: #ffffff;
+   --color-text: #333333;
+   --color-primary: #7c3aed;
 }
