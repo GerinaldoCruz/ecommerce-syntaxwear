@@ -2,6 +2,7 @@
    background: url(../../images/banners/hero.svg) no-repeat center / cover;
    height: 500px;
    position: relative;
+   border-radius: 15px;
 }
 
 .hero-overlay {

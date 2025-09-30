@@ -1,0 +1,73 @@
+.card {
+   border-radius: 15px;
+   position: relative;  
+}
+
+.highlight {
+   grid-area: highlight;
+   background: url(../../images/products/modelo-masculino.webp) no-repeat center / cover;
+}
+
+.highlight-content {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate( -50%, -50%);
+   text-align: center;
+}
+
+.card-title {
+   font-size: 2rem;
+   font-weight: 400;
+   color: #ededed;
+   margin-bottom: 10px;
+}
+
+.card-subtitle {
+   font-size: 2.4rem;
+   font-weight: 400;
+   color: #ededed;
+   margin-bottom: 20px;
+}
+
+.cta-group {
+   display: flex;
+   gap: 10px;
+}
+
+.sneaker-purple {
+   grid-area: sneaker-purple;
+      background: url(../../images/products/tênis-roxo-e-verde-grid.webp) no-repeat center / cover;
+
+}
+
+.model {
+   grid-area: model;
+      background: url(../../images/products/modelo-feminino.jpg) no-repeat center / cover;
+}
+
+.sneaker-color {
+   grid-area: sneaker-color;
+      background: url(../../images/products/futurista-grid.webp) no-repeat center / cover;
+}
+
+.sneaker-white {
+   grid-area: sneaker-white;
+      background: url(../../images/products/tênis-preto-azul-grid.webp) no-repeat center / cover;
+}
+
+.sneaker-silver {
+   grid-area: sneaker-silver;
+      background: url(../../images/products/moderno-grid.jpg) no-repeat center / cover;
+}
+
+.grid-section {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   grid-template-rows: repeat(3, 300px);
+   grid-template-areas:
+      "highlight highlight sneaker-purple sneaker-purple"
+      "highlight highlight model sneaker-color"
+      "sneaker-white sneaker-white model sneaker-silver";
+      gap: 30px;
+}
