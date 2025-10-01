@@ -1,12 +1,12 @@
 .site-header {
    background-color: var(--white);
    position: fixed;
-   top: 60px;
+   top: 6rem;
    left: 50%;
-   transform: translateX( -50% );
-   width: calc( 100% - 342px);
-   max-height: 72px;
-   border-radius: 15px;
+   transform: translateX( -50%);
+   width: 80%;
+   max-height: 7.2rem;
+   border-radius: 1.5rem;
    z-index: 999;
    padding: 1.2rem 2rem;
 
@@ -16,7 +16,7 @@
 }
 
 .logo img{
-   height: 32px;
+   height: 3.2rem;
 }
 
 .nav-center ul{
