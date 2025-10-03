@@ -8,7 +8,7 @@
 }
 
 .category-card {
-   width: 317px;
+   width: 306px;
    height: 500px;
    border-radius: 15px;
    position: relative;
@@ -47,4 +47,10 @@
 
 .futurista {
    background: url(../../images/products/futurista.svg) no-repeat center / cover;
+}
+
+@media (max-width: 500px) {
+   .category-card {
+      width: 100%;
+   }
 }
